@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Fill in the form</title>
+</head>
+<body>
+    <header class="header">EasyLearn</header>
+    <main class="main">
+        <h1>Tell us about yourself:</h1>
+        <form action="https://webhook.site/361b7b5f-b23e-4b8c-afaf-e745d955e300" method="post">
+            <fieldset class="fieldset">
+                <legend>Contact Information</legend>
+                <table class="table">
+                    <tr>
+                        <td>First and second name</td>
+                        <td>
+                            <input type="text" name="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>
+                            <input type="tel" name="phone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                            <input type="text" name="email">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <img class="img2" src="../images/9Pyw.gif" alt="GIF">
+            <br>
+            <fieldset class="fieldset">
+                <legend>Personal Information</legend>
+                <table class="table">
+                    <tr>
+                        <td>Age</td>
+                        <td>
+                            <input type="number" name="age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+                            <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Your language level/goal</td>
+                        <td>
+                            <textarea name="comment" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <a href="contacts.html">Contact Us</a>
+        <a href="../index.html">Main Page</a>
+    </main>
+    <footer class="footer">Start Learning Now!</footer>
+</body>
+</html>
